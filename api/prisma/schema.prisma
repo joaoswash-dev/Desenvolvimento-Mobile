@@ -5,9 +5,9 @@ generator client {
   provider = "prisma-client-js"
 }
 
-// SQLite para desenvolvimento
+// PostgreSQL (Railway)
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
 }
 
 model User {
